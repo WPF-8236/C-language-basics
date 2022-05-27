@@ -7,21 +7,21 @@
 //	printf("********************\n");
 //}
 //void game(){
-//	´æ´¢Êı¾İ - ¶şÎ¬Êı×é
+//	å­˜å‚¨æ•°æ® - äºŒç»´æ•°ç»„
 //	char board[ROW][COL];
-//	³õÊ¼»¯ÆåÅÌ - ³õÊ¼»¯¿Õ¸ñ
+//	åˆå§‹åŒ–æ£‹ç›˜ - åˆå§‹åŒ–ç©ºæ ¼
 //	InitBoard(board,ROW,COL);
-//	´òÓ¡ÆåÅÌ - ±¾ÖÊÊÇ´òÓ¡Êı×éµÄÄÚÈİ 
+//	æ‰“å°æ£‹ç›˜ - æœ¬è´¨æ˜¯æ‰“å°æ•°ç»„çš„å†…å®¹ 
 //	DisplayBoard(board,ROW,COL);
 //	char ret = 'C';
 //	while(1){
-//		Íæ¼ÒÏÂÆå
+//		ç©å®¶ä¸‹æ£‹
 //		PlayerMove(board,ROW,COL);
 //		DisplayBoard(board,ROW,COL);
 //		ret = IsWin(board,ROW,COL);
 //		if(ret != 'C')
 //			break;
-//		µçÄÔÏÂÆå 
+//		ç”µè„‘ä¸‹æ£‹ 
 //		ComputerMove(board,ROW,COL);
 //		DisplayBoard(board,ROW,COL);
 //		ret = IsWin(board,ROW,COL);
@@ -29,13 +29,13 @@
 //			break;
 //	}
 //	if(ret == '*'){
-//		printf("Íæ¼ÒÓ®ÁË\n");
+//		printf("ç©å®¶èµ¢äº†\n");
 //		DisplayBoard(board,ROW,COL);
 //	}else if(ret == '#'){
-//		printf("µçÄÔÓ®ÁË\n");
+//		printf("ç”µè„‘èµ¢äº†\n");
 //		DisplayBoard(board,ROW,COL);
 //	} else{
-//		printf("Æ½¾Ö\n");
+//		printf("å¹³å±€\n");
 //		DisplayBoard(board,ROW,COL);
 //	}
 //}
@@ -44,19 +44,20 @@
 //	srand((unsigned int)time(NULL)); 
 //	do{
 //		menu();
-//		printf("ÇëÑ¡Ôñ:>");
+//		printf("è¯·é€‰æ‹©:>");
 //		scanf("%d",&input);
 //		switch(input){
 //			case 1:
-//				printf("Èı×ÓÆåÓÎÏ·\n");
+//				printf("ä¸‰å­æ£‹æ¸¸æˆ\n");
 //				game();
 //				break;
 //			case 0:
-//				printf("ÍË³öÓÎÏ·\n");
+//				printf("é€€å‡ºæ¸¸æˆ\n");
 //				break;
 //			default:
-//				printf("Ñ¡Ôñ´íÎó,ÖØĞÂÑ¡Ôñ\n"); 
+//				printf("é€‰æ‹©é”™è¯¯,é‡æ–°é€‰æ‹©\n"); 
 //				break;
 //		}
 //	}while(input);
 //}
+//
